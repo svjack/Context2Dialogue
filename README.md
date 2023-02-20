@@ -431,7 +431,6 @@ Project Link:[https://github.com/svjack/Context2Dialogue](https://github.com/svj
 * [Langboat](https://huggingface.co/Langboat)
 * [uer](https://huggingface.co/uer)
 -->
-*
 * [deepset-wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant)
 * [ClueAI](https://huggingface.co/ClueAI)
 * [nlpconnect/vit-gpt2-image-captioning](https://huggingface.co/svjack/prompt-extend-chinese-gpt)
