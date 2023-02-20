@@ -12,8 +12,12 @@
 ## Introduction
 ### Project view in the point of dialogue goal
 Given the first sentence of a dialogue, one can get the subsequent context by
-a seq2seq style model. I have released two repositories called [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) and [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue) do this kinds of works. The difference between them is, the former is simply a GPT or Bloom seq2seq style model that predict the subsequent without knowledge's help or restraint, the latter use General Language Model (GLM) do auxiliary and do some reconstructions. </br>
-This project focus on achieve the goal like [deepset](https://huggingface.co/deepset)'s [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) in Dialogue domain. [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) use a seq2seq model to generate long form answer based on wikipedia context (recall by a faiss index). The answers' validity is guaranteed by the context, which makes them more closed to reality.
+a seq2seq style model. I have released two repositories called [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) and [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue) do this kinds of works. </br>
+
+The difference between them is, the former is simply a GPT or Bloom seq2seq style model that predict the subsequent without knowledge's help or restraint, the latter use General Language Model (GLM) do auxiliary and do some reconstructions. </br>
+
+This project focus on achieve the goal like [deepset](https://huggingface.co/deepset)'s [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) in Dialogue domain. [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) use a seq2seq model to generate long form answer based on wikipedia context (recall by a faiss index). The answers' validity is guaranteed by the context, which makes them more closed to reality.</br>
+
 In the  [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) situation, no guarantee, In the [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue) situation, the guarantee is rely on pretrained General Language Model (GLM). This project more close to the fact compared with above two
  repositories and have a relative rapid running performance (speed) than  [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue).
 
