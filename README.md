@@ -27,15 +27,15 @@ In the  [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) situat
 
 ## HuggingFace demonstration
 
-### Related Model demonstration (Name startswith svjack is trained by myself)
-|Name |HuggingFace Model link| HuggingFace Space link | Language |
-|---------|--------|-------|-------|
-| svjack/summary-dialogue-eng | https://huggingface.co/svjack/summary-dialogue-eng | | English |
-| svjack/summary-dialogue | https://huggingface.co/svjack/summary-dialogue | | Chinese |
-| daspartho/prompt-extend | https://huggingface.co/daspartho/prompt-extend | https://huggingface.co/spaces/daspartho/prompt-extend | English |
-| svjack/prompt-extend-chinese-gpt | https://huggingface.co/svjack/prompt-extend-chinese-gpt | | Chinese |
-| nlpconnect/vit-gpt2-image-captioning | https://huggingface.co/nlpconnect/vit-gpt2-image-captioning |https://huggingface.co/spaces/SRDdev/Image-Caption | English |
-| YeungNLP/ofa-cn-base-muge-v2 |https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2 ||Chinese|
+### Used Related Model demonstration (Name startswith svjack is trained by myself)
+|Name |HuggingFace Model link| HuggingFace Space link | Language | Model skeleton |
+|---------|--------|-------|-------|------|
+| svjack/summary-dialogue-eng | https://huggingface.co/svjack/summary-dialogue-eng | | English | T5 |
+| svjack/summary-dialogue | https://huggingface.co/svjack/summary-dialogue | | Chinese | T5 |
+| daspartho/prompt-extend | https://huggingface.co/daspartho/prompt-extend | https://huggingface.co/spaces/daspartho/prompt-extend | English | GPT2 |
+| svjack/prompt-extend-chinese-gpt | https://huggingface.co/svjack/prompt-extend-chinese-gpt | | Chinese | GPT2 |
+| nlpconnect/vit-gpt2-image-captioning | https://huggingface.co/nlpconnect/vit-gpt2-image-captioning |https://huggingface.co/spaces/SRDdev/Image-Caption | English | VIT X GPT2 |
+| YeungNLP/ofa-cn-base-muge-v2 |https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2 ||Chinese| OFA |
 
 ### Dataset generate by above models demonstration
 |Name |HuggingFace Dataset link| HuggingFace Space link | Language |
@@ -401,6 +401,13 @@ will output:
 
 ## More Info and Disscussion
 Set "do_sample" to True can be a simple method to do augmentation on the outputs and prevent from get trivial outputs. One can do this multi times and find some good samples by setting simple rules.
+
+### Self trained other Related Model demonstration 
+|Name |HuggingFace Model link| Task | Language | Model skeleton |
+|---------|--------|-------|-------|-------|
+| svjack/dialogue-summary | https://huggingface.co/svjack/dialogue-summary | Generate summary of a dialogue context | Chinese | T5 |
+| svjack/dialogue-summary-fill-characters | https://huggingface.co/svjack/dialogue-summary-fill-characters | Map dialogue character to summary position | Chinese | T5 |
+| svjack/vit-gpt-diffusion-zh | https://huggingface.co/svjack/vit-gpt-diffusion-zh | Generate stable diffusion style caption of Image | Chinese | VIT X GPT2 |
 
 <!-- CONTACT -->
 ## Contact
