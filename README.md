@@ -279,7 +279,12 @@ will output:
 </br>
 
 </br>
-Set "extend_by_diffusion" parameter to True will use prompt extend model that will make the caption more vivid in stable diffusion prompt format. Some details can be seen in [svjack/Stable-Diffusion-Chinese-Extend](https://github.com/svjack/Stable-Diffusion-Chinese-Extend)
+Set "extend_by_diffusion" parameter to True will use prompt extend model that will make the caption more vivid in stable diffusion prompt format. </br>
+
+Some details can be seen in 
+
+[svjack/Stable-Diffusion-Chinese-Extend](https://github.com/svjack/Stable-Diffusion-Chinese-Extend)
+
 </br>
 </br>
 Below is the the demonstration.
