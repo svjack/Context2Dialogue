@@ -41,7 +41,7 @@ with similar questions as input, you will understand the difference between this
 | YeungNLP/ofa-cn-base-muge-v2 |https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2 ||Chinese| OFA |
 
 <br/>
-Try to select the "do_sample" option when you do not get the satisfying output when try https://huggingface.co/svjack/summary-dialogue-eng and https://huggingface.co/svjack/summary-dialogue
+Try to select the "do_sample" option when you do not get the satisfying output when try https://huggingface.co/spaces/svjack/English-Context-Dialogue-Generator and https://huggingface.co/spaces/svjack/Chinese-Context-Dialogue-Generator
 You may have a try to wrap this option by a reinforce style reward extention in a reinforcement learning manner to generate samples.
 
 ### Dataset generate by above models demonstration
