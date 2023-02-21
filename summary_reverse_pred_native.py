@@ -149,7 +149,8 @@ def repeat_score(l, slice_size = 200 ,sim_threshold = 70):
     return cnt_num
 
 #### "svjack/prompt-extend-chinese-gpt"
-model_path = "/home/featurize/zh_p_extend_outputs/simplet5-epoch-3-train-loss-1.2628-val-loss-1.6293"
+#model_path = "/home/featurize/zh_p_extend_outputs/simplet5-epoch-3-train-loss-1.2628-val-loss-1.6293"
+model_path = "svjack/prompt-extend-chinese-gpt"
 tokenizer1 = BertTokenizer.from_pretrained(model_path)
 model1 = GPT2LMHeadModel.from_pretrained(model_path)
 
