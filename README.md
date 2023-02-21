@@ -30,17 +30,17 @@ In the  [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) situat
 ### Used Related Model demonstration (Name startswith svjack is trained by myself)
 |Name |HuggingFace Model link| HuggingFace Space link | Language | Model skeleton |
 |---------|--------|-------|-------|------|
-| svjack/summary-dialogue-eng | https://huggingface.co/svjack/summary-dialogue-eng | | English | T5 |
-| svjack/summary-dialogue | https://huggingface.co/svjack/summary-dialogue | | Chinese | T5 |
+| svjack/summary-dialogue-eng | https://huggingface.co/svjack/summary-dialogue-eng | https://huggingface.co/spaces/svjack/English-Context-Dialogue-Generator | English | T5 |
+| svjack/summary-dialogue | https://huggingface.co/svjack/summary-dialogue | https://huggingface.co/spaces/svjack/Chinese-Context-Dialogue-Generator | Chinese | T5 |
 | daspartho/prompt-extend | https://huggingface.co/daspartho/prompt-extend | https://huggingface.co/spaces/daspartho/prompt-extend | English | GPT2 |
-| svjack/prompt-extend-chinese-gpt | https://huggingface.co/svjack/prompt-extend-chinese-gpt | | Chinese | GPT2 |
+| svjack/prompt-extend-chinese-gpt | https://huggingface.co/svjack/prompt-extend-chinese-gpt | https://huggingface.co/spaces/svjack/prompt-extend-gpt-chinese | Chinese | GPT2 |
 | nlpconnect/vit-gpt2-image-captioning | https://huggingface.co/nlpconnect/vit-gpt2-image-captioning |https://huggingface.co/spaces/SRDdev/Image-Caption | English | VIT X GPT2 |
 | YeungNLP/ofa-cn-base-muge-v2 |https://huggingface.co/YeungNLP/ofa-cn-base-muge-v2 ||Chinese| OFA |
 
 ### Dataset generate by above models demonstration
 |Name |HuggingFace Dataset link| HuggingFace Space link | Language |
 |---------|--------|-------|-------|
-
+| svjack/context-dialogue-generate-ds-zh-v1 | https://huggingface.co/datasets/svjack/context-dialogue-generate-ds-zh-v1 | https://huggingface.co/spaces/svjack/context-dialogue-chinese-sample-search | Chinese |
 
 ## Installation and Instructions
 
