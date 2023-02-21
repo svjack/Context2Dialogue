@@ -19,7 +19,10 @@ The difference between them is, the former is simply a GPT or Bloom seq2seq styl
 This project focus on achieve the goal like [deepset](https://huggingface.co/deepset)'s [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) in Dialogue domain. [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) use a seq2seq model to generate long form answer based on wikipedia context (recall by a faiss index). The answers' validity is guaranteed by the context, which makes them more closed to reality.</br>
 
 In the  [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) situation, no reality guarantee, In the [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue) situation, the reality guarantee is rely on pretrained General Language Model (GLM). This project more close to the fact compared with above two
- repositories and have a relative rapid running performance (speed) than  [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue).
+ repositories and have a relative rapid running performance (speed) than  [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue).</br>
+ 
+Try and compare [svjack/context-dialogue-chinese-sample-search](https://huggingface.co/spaces/svjack/context-dialogue-chinese-sample-search) and [svjack/bloom-gpt-dialogue-chinese-sample-search](https://huggingface.co/spaces/svjack/bloom-gpt-dialogue-chinese-sample-search)
+with similar questions as input, you will understand the difference between this project and first sentence guide dialogue prediction models in Chinese domain.
 
 ### Project view in the point of generation
 [svjack/docvqa-gen](https://github.com/svjack/docvqa-gen) is a project that One can use text or Document Image as Input and get question-answer pairs as Output. In the point of generation is a “context to qa” generator. This project is the counterpart in “context to dialogue” scene.
