@@ -18,7 +18,7 @@ The difference between them is, the former is simply a GPT or Bloom seq2seq styl
 
 This project focus on achieve the goal like [deepset](https://huggingface.co/deepset)'s [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) in Dialogue domain. [wikipedia-assistant](https://huggingface.co/spaces/deepset/wikipedia-assistant) use a seq2seq model to generate long form answer based on wikipedia context (recall by a faiss index). The answers' validity is guaranteed by the context, which makes them more closed to reality.</br>
 
-In the  [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) situation, no guarantee, In the [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue) situation, the guarantee is rely on pretrained General Language Model (GLM). This project more close to the fact compared with above two
+In the  [svjack/Daliy-Dialogue](https://github.com/svjack/Daliy-Dialogue) situation, no reality guarantee, In the [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue) situation, the reality guarantee is rely on pretrained General Language Model (GLM). This project more close to the fact compared with above two
  repositories and have a relative rapid running performance (speed) than  [svjack/GLM-Open-Dialogue](https://github.com/svjack/GLM-Open-Dialogue).
 
 ### Project view in the point of generation
