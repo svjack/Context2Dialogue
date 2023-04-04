@@ -9,6 +9,8 @@
   </p>
 </p>
 
+[中文简介](README.md)
+
 ## Introduction
 ### Project view in the point of dialogue goal
 Given the first sentence of a dialogue, one can get the subsequent context by
