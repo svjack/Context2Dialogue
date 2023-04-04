@@ -9,7 +9,8 @@
   </p>
 </p>
 
-[In English]()
+[In English](README_EN.md)
+
 
 ## 引述
 ### 从对话的观点看待这个工程
